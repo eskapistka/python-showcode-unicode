@@ -30,6 +30,8 @@ def get_check_digit(input):
     else:
         return -1
 
+
+# Pytest tests
 class TestClass:
     def test_format(self):
         assert type(get_check_digit('0-19-852663-x')) is int
